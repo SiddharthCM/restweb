@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("menu.png") center / cover no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(237, 160, 60, 0.818);
+  padding: 10px 20px;
+  border-radius: 25px;
+  backdrop-filter: blur(6px);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+body h3{
+    margin-left: 800;
+    color:rgba(237, 160, 60, 0.818);
+    margin-top: 150;
+    margin-right: 180;
+
+}
